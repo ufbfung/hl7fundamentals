@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <!-- $Id: NarrativeBlock.xsd,v 1.4 2005/04/17 03:13:19 lmckenzi Exp $ -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:hl7-org:v3" targetNamespace="urn:hl7-org:v3" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="urn:hl7-org:v3" targetNamespace="https://raw.githubusercontent.com/ufbfung/hl7fundamentals/main" elementFormDefault="qualified">
    <xs:complexType name="StrucDoc.Text" mixed="true">
       <xs:choice minOccurs="0" maxOccurs="unbounded">
          <xs:element name="content" type="StrucDoc.Content"/>
